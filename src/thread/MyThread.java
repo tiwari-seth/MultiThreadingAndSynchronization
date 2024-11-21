@@ -11,7 +11,7 @@ public class MyThread extends Thread{
     }
 
     public static void main(String[] args) {
-        MyThread thread = new MyThread();
+        MyThreadOverload thread = new MyThreadOverload();
         thread.start();
         int i=0;
         while(true){

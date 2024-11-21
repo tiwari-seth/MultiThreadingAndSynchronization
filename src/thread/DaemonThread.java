@@ -9,7 +9,7 @@ public class DaemonThread {
                System.out.println(i++);
            }
         });
-        t1.setDaemon(true);
+        t1.setDaemon(true); //As soon as the Main thread ends, The t1 thread also ends as it is a Daemon thread so main thread doesn't wait
         t1.start();
 
 //        try {
